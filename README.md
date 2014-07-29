@@ -1,5 +1,4 @@
 # thermal
-=======
 
 Node.js thermal printer library for Raspberry Pi
 
@@ -253,7 +252,7 @@ Prints all buffered data to the print region collectively, then recovers to the 
 
 -All buffer data is deleted after printing.
 
--The print area set by ESC W (Set print region in page mode) is reset to the default setting. ï No paper cut is executed.
+-The print area set by ESC W (Set print region in page mode) is reset to the default setting. ï No paper cut is executed.
 
 -Sets the print position to the beginning of the next line after execution.
 
