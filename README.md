@@ -2,6 +2,15 @@
 
 Node.js thermal printer library for Raspberry Pi
 
+## Installation
+
+	git clone https://github.com/stuffshit/thermal.git
+	
+After cloning you should install the dependencies via npm
+
+	cd thermal
+	npm install
+
 ## Quick Examples
 
 ```javascript
@@ -16,6 +25,10 @@ printer.on("ready",function(){
 ```
 
 ## API
+### print(txt)
+Printing inputed text
+
+---------------------------------------
 ### feed(n)
 Feeds by the specified number of lines
 
